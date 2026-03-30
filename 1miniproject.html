@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GQT Tour & Travel | Explore the World</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="1miniproject.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container-fluid bg-dark text-white py-2 marquee-bar">
+    <marquee behavior="scroll" direction="left" scrollamount="8">
+        Hurry up! Kumara Parvata trekking this week | Contact: 786532150 |
+        Only few seats left | WhatsApp: 7019848109
+    </marquee>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container-fluid">
+        <i class="fa-solid fa-plane-departure text-white pe-2 fs-3"></i>
+        <a href="#" class="navbar-brand fs-3">GQT Tour & Travel</a>  
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#simple-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="simple-navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white fs-5" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white fs-5" href="#search">Search</a></li>
+                <li class="nav-item"><a class="nav-link text-white fs-5" href="#dest">Destination</a></li>
+                <li class="nav-item"><a class="nav-link text-white fs-5" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link text-white fs-5" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="img-slider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#img-slider" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#img-slider" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#img-slider" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.mydomaine.com/thmb/iGBxW0VsFdj6kfypVMkKgIeTeDw=/2134x1405/filters:fill(auto,1)/GettyImages-173052018-0a6ac213984e4a999d4f669fc429ae7a.jpg" class="d-block w-100" alt="Waterfall">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-3 fw-bold">Feel the Joy</h1>
+                <p class="fs-4">Discover hidden waterfalls and serene landscapes.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://iamitalian.sfo3.digitaloceanspaces.com/images/discover-lake-sirino-the-ultimate-adventure-desti-119470-adt1_0.jpg" class="d-block w-100" alt="Mountains">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-3 fw-bold">Ultimate Destination</h1>
+                <p class="fs-4">Reach new heights with our mountain expeditions.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://miro.medium.com/v2/resize:fit:960/1*4ZYI01R8zkLTqYdK3P40IQ.png" class="d-block w-100" alt="Forest">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-3 fw-bold">Explore Nature</h1>
+                <p class="fs-4">Connect with the wilderness like never before.</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#img-slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#img-slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<div class="container mt-5 text-center" id="search">
+    <h1 class="text-warning fw-bold">Search Your Destination</h1>
+    <p class="text-muted fs-5">Find your dream place among 1000+ locations</p>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="input-group input-group-lg shadow-sm">
+                <input type="search" class="form-control" placeholder="Where do you want to go?">
+                <button class="btn btn-warning text-white">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 py-5">
+    <div class="row text-center g-4">
+        <div class="col-md-3">
+            <div class="card p-4 shadow-sm h-100">
+                <i class="fa fa-location-arrow fa-3x text-info mb-3"></i>
+                <h4 class="fw-bold">Pick Location</h4>
+                <p class="text-muted">Choose from over 50 countries worldwide.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-4 shadow-sm h-100">
+                <i class="fa fa-building fa-3x text-primary mb-3"></i>
+                <h4 class="fw-bold">Select Hotel</h4>
+                <p class="text-muted">Luxury stays at the best possible prices.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-4 shadow-sm h-100">
+                <i class="fa fa-car fa-3x text-success mb-3"></i>
+                <h4 class="fw-bold">Select Mode</h4>
+                <p class="text-muted">Private cabs, flights, or local transport.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-4 shadow-sm h-100">
+                <i class="fa fa-plane fa-3x text-danger mb-3"></i>
+                <h4 class="fw-bold">Ready to Fly</h4>
+                <p class="text-muted">Pack your bags and leave the rest to us.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="dest" class="py-5">
+<div class="container">
+    <div class="row text-center mb-5">
+        <div class="col-md-12">
+            <h1 class="display-4 fw-bold">
+                <span class="text-success">Popular</span>
+                <span class="text-primary">Destinations</span>
+            </h1>
+            <p class="lead">Handpicked locations just for you</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="https://lp-cms-production.imgix.net/2019-06/GettyImages-149353949_high.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4" class="card-img-top" alt="Himachal">
+                <div class="card-body">
+                    <h3 class="fw-bold">Himachal Pradesh</h3>
+                    <p class="card-text">Snowy peaks and vibrant culture await in the Himalayas.</p>
+                    <button class="btn btn-success btn-sm px-4">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="https://media1.thrillophilia.com/filestore/1i4kspcpe1ghd3f5v2aqrpn3sjb5_shutterstock_263762033.jpg" class="card-img-top" alt="Ladakh">
+                <div class="card-body">
+                    <h3 class="fw-bold">Lovely Ladakh</h3>
+                    <p class="card-text">Explore high-altitude passes and crystal blue lakes.</p>
+                    <button class="btn btn-success btn-sm px-4">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="https://thumbs.dreamstime.com/b/christ-church-shimla-second-oldest-north-india-famous-tourist-destination-272675676.jpg" class="card-img-top" alt="Shimla">
+                <div class="card-body">
+                    <h3 class="fw-bold">Silent Shimla</h3>
+                    <p class="card-text">The Queen of Hills offers colonial charm and pine forests.</p>
+                    <button class="btn btn-success btn-sm px-4">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <button class="btn btn-dark btn-lg shadow px-5 py-3">
+            <i class="fa fa-play me-2"></i> Start Booking Now
+        </button>
+    </div>
+</div>
+</section>
+
+<section id="gallery" class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">
+            <span class="text-warning">Photo</span>
+            <span class="text-primary">Gallery</span>
+        </h1>
+        <p class="lead">Beautiful memories from our happy travelers</p>
+    </div>
+
+    <div class="row g-3">
+        <div class="col-md-3 col-sm-6"><img src="https://cdn.bunniktours.com.au/public/posts/November2022/Rectangle%20template%20-%20Treasury%20Petra.png" class="img-fluid rounded shadow-sm"></div>
+        <div class="col-md-3 col-sm-6"><img src="https://namastevietnamtours.b-cdn.net/wp-content/uploads/2024/10/17756-exploring-the-must-see-tourist-attractions-in-vietnam-a-travelers-guide.jpg" class="img-fluid rounded shadow-sm"></div>
+        <div class="col-md-3 col-sm-6"><img src="https://laostravel.com/images/2019/06/Laos-Vientiane-Pha-That-Luang-2.jpg" class="img-fluid rounded shadow-sm"></div>
+        <div class="col-md-3 col-sm-6"><img src="https://www.holidify.com/images/bgImages/INDIA.jpg" class="img-fluid rounded shadow-sm"></div>
+        <div class="col-md-3 col-sm-6"><img src="https://wallpapercave.com/wp/wp1820654.jpg" class="img-fluid rounded shadow-sm"></div>
+        <div class="col-md-3 col-sm-6"><img src="https://keystoneacademic-res.cloudinary.com/image/upload/element/18/181958_181668_Main_Quadrangle_University_of_Sydney_1.jpg" class="img-fluid rounded shadow-sm"></div>
+        <div class="col-md-3 col-sm-6"><img src="https://api.time.com/wp-content/uploads/2023/03/Worlds-Greatest-Places-Ruhengeri-Rwanda.jpg" class="img-fluid rounded shadow-sm"></div>
+        <div class="col-md-3 col-sm-6"><img src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/qnyg7x6ye3ipbqnvpsqp" class="img-fluid rounded shadow-sm"></div>
+    </div>
+</section>
+
+<section id="contact" class="py-5 bg-light">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card bg-info text-white text-center p-5 mb-4 border-0 shadow">
+                <i class="fa fa-envelope fa-4x mb-3"></i>
+                <h2>Contact Us For Booking</h2>
+                <p>We are available 24/7 for your assistance.</p>
+            </div>
+
+            <ul class="list-group shadow-sm">
+                <li class="list-group-item active bg-primary border-0"><h5>Office Location</h5></li>
+                <li class="list-group-item"><i class="fa fa-building me-2 text-primary"></i> GQT Tour & Travel</li>
+                <li class="list-group-item"><i class="fa fa-map-marker-alt me-2 text-danger"></i> Yelahanka New Town, Bangalore</li>
+                <li class="list-group-item"><i class="fa fa-phone me-2 text-success"></i> +91 786532150</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card p-4 shadow border-0">
+                <h3 class="text-center mb-4 fw-bold">Plan Your Trip</h3>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="Full Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control form-control-lg" placeholder="Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control form-control-lg" placeholder="Email ID">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="Preferred Destination">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control form-control-lg" rows="3" placeholder="Additional details..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info w-100 btn-lg text-white shadow-sm">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 text-center">
+        <h3 class="text-danger mb-4 fw-bold">Locate Us</h3>
+        <div class="rounded-4 overflow-hidden shadow">
+          
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0060604389487!2d77.58328777484368!3d13.098802287228422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1920f50b395f%3A0x50fe874d0ef4b524!2sGlobal%20Quest%20Technologies!5e0!3m2!1sen!2sin!4v1774098637475!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+              
+        </div>
+    </div>
+</div>
+</section>
+
+<footer class="bg-secondary text-white text-center py-4">
+    <div class="container">
+        <h5 class="fw-bold">© 2026 GQT Tour & Travel</h5>
+        <p class="mb-1">All Rights Reserved</p>
+        <div class="social-links mt-3">
+            <i class="fa-brands fa-instagram fs-4 mx-2"></i>
+            <i class="fa-brands fa-facebook fs-4 mx-2"></i>
+            <i class="fa-brands fa-x-twitter fs-4 mx-2"></i>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
