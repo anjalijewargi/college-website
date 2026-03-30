@@ -1,2 +1,1 @@
-# college-website
-my college website
+index.html
